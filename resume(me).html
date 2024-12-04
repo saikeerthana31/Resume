@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            background-color:thistle;
+        }
+        .header h1{
+            text-align: center;
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+        .header p {
+            margin: 5px 0;
+            letter-spacing: normal;
+            text-align: center;
+        }
+        a {
+            color:black;
+        }
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .divider::before,.divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #000;
+        }
+        .divider:not(:empty)::before {
+            margin-right: 0.5em;
+        }
+        .divider:not(:empty)::after {
+            margin-left: 0.5em;
+        }
+        .ul , p , h4 {
+            text-align: center;
+        }
+        .experience-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem; /* Space between each box */
+        }
+
+        .experience-item {
+            border: 2px solid #ccc; /* Border color */
+            border-radius: 8px; /* Rounded corners */
+            padding: 1.5rem; /* Inner spacing */
+            background-color: #f9f9f9; /* Light background */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        .experience-item h4 {
+            margin-bottom: 0.5rem; /* Spacing under the title */
+            color: #333; /* Title color */
+            font-size: 1.25rem; /* Title font size */
+        }
+
+        .experience-item p {
+            margin-bottom: 1rem; /* Spacing under the description */
+            color: #555; /* Description color */
+        }
+
+        .experience-item ul {
+            margin: 0;
+            padding-left: 1.5rem; /* Indentation for list */
+        }
+
+        .experience-item li {
+            color: #444; /* List item color */
+            margin-bottom: 0.5rem; /* Spacing between items */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SAI KEERTHANA SUNDURU</h1>
+        <p>sundurusaikeerthana@gmail.com | +91 7013405959 | <a href="https://github.com/saikeerthana31"> github: sai keerthana</a> </p>
+    </div>
+
+
+    <div class="divider"><h2>Summary</h2></div>
+    <p>Enthusiastic student, willing to learn anything new, working in both team based and independent capacities. Hardworking and dedicated individual.</p>
+    
+
+    <div class="divider"><h2>Skills</h2></div>
+    <ul>
+        <li>Scheduling</li>
+        <li>Training & Development</li>
+        <li>Fast Learner</li>
+        <li>Organizational Skills</li>
+        <li>Research</li>
+        <li>Project Support</li>
+    </ul>
+
+
+    <div class="divider"><h2>Experience</h2></div>
+    <div class="experience-container">
+        <div class="experience-item">
+            <h4>Intern | Teachnook - Coimbatore, IN | 09/2024 - Current</h4>
+            <p>It was an internship/workshop for app/web development.</p>
+            <ul>
+                <li>Learning how to code in Kotlin and Swift.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h4>Intern | Corizo - Coimbatore | 01/2024 - 03/2024</h4>
+            <p>Internship in web development.</p>
+            <ul>
+                <li>I made a shopping website as a single project.</li>
+                <li>As a group project, we made another social media website.</li>
+                <li>Gathered data for market research projects and analyzed findings to make recommendations.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h4>Volunteer | Amrita vishwa vidhyapeetham - Coimbatore 1 01/2024 - 01/2024</h4>
+            <ul>
+                <li>Organized and maintained records of volunteer hours.</li>
+                <li>I was there at registration, helped people with any set of directions.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h4>Volunteer | Amrita vishwa vidhyapeetham - Coimbatore, IN | 09/2023 - 09/2023</h4>
+            <ul>
+                <li>Went to volunteer in a tribal school.</li>
+                <li>Donated money and helped prepare and pack items such as stationery and bags for the students.</li>
+                <li>Supported engaging, fun, and smooth-running events by helping with organization and planning.</li>
+                <li>Planted trees.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="divider"><h2>Education</h2></div>
+    <div class="experience-container">
+        <div class="experience-item">
+            <h4> Amrita Vishwa vidhyapeetham | Coimbatore | Expected in 2026</h4>
+            <p>Bachelor of Technology in Computer Science and Engineering</p>
+            <p>6.43 GPA (currently)</p>
+        </div>
+        <div class="experience-item">
+            <h4>Sri chaitanya college | vijayawada | Graduated: 05/2022 </h4>
+            <p>High school diploma (11th and 12th classes)</p>
+            <p>89% (state board) </p>
+        </div>
+        <div class="experience-item">
+            <h4>Sri chaitanya school | Ananthapur | Graduated: 03/2020</h4>
+            <p>GED</p>
+            <p>99% (state board) </p>
+        </div>
+    </div>
+
+
+    <div class="divider"><h2>Courses Taken</h2></div>
+    <p>python, c, c++, ML, Data structures and algorithm, Operating systems, Database Management, UI design, cryptography, Optimization techniques, Numerical Methods </p>
+
+
+    <div class="divider"><h2>Technical skills</h2></div>
+    <ul>
+        <li>Programming languages: Python, C, C++, Java, JavaScript</li>
+        <li>Tools and framework: Jyupter Notebook, Kotlin(currently learning)</li>
+        <li>Operating systems: Mac, windows, linux</li>
+    </ul>
+    
+
+    <div class="divider"><h2>Workshops attended</h2></div>
+    <ul>
+        <li><a href="./public/Intro to Python.pdf">Intro to Python workshop</a> </li>
+        <li>Greedy and Dp</li>
+        <li><a href="./public/Getting Started with the app development.pdf">App development</a></li>
+    </ul>
+
+
+    <div class="divider"><h2>languages</h2></div>
+    <ul>
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Telugu</li>
+    </ul>
+
+
+</body>
+</html>
